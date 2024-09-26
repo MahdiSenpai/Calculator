@@ -24,9 +24,23 @@ public class CalculatorTest {
     }
 
     @Test
+    void sub_test(){
+        // GIVEN
+        // WHEN
+        int sub = Calculator.sub(3,2);
 
+        //THEN
+        assertThat(sub).isEqualTo(1);
+    }
 
-
+    @Test
+    void multi_test(){
+        //GIVEN
+        //WHEN
+        int multiply = Calculator.multiply(4,4);
+        //THEN
+        assertThat(multiply).isEqualTo(16);
+    }
 
 
 
