@@ -8,11 +8,20 @@ public class Calculator {
         return (int) somme;
     }
 
-    public static int divine(int opG, int opD) {
+    public static int divide(int opG, int opD) {
 
-        double divine = (double) opG / (double) opD;
-        return (int) divine;
+        double divide = (double) opG / (double) opD;
+        return (int) divide;
     }
 
+    Public static int multiply(int OpA, int OpB) {
+        double multiply = (double) OpA * (double) OpB;
+        return (int) multiply;
+    }
 
+    Public static int sub(int op1, int op2) {
+        double sub = (double) op1 - (double) op2;
+        return (int) sub;
+    }
 }
+
